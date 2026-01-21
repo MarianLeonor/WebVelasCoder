@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de velas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/icono.ico" type="image/x-icon" class="icono">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <img src="./img/vela.svg" alt="Tienda de Velas" class="logo">
+        <h2>Tienda de Velas</h2>
+        <nav class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="./pages/catalogo.html">Catálogo</a>
+            <a href="./pages/blog.html">Blog</a>
+            <a href="./pages/acerca.html">Acerca de</a>
+            <a href="./pages/contacto.html">Contacto</a>
+            <button class="btn-dark">Registrarse</button>
+            <button class="btn-ligth">Ingresar</button>
+        </nav>
+    </header>
+    <main>
+        <section class="aromaterapia">
+            <div class="aromaterapia-text">
+                <h3>El Poder del Aromaterapia de Nuestras Velas</h3>
+                <p>Entendemos qué te trajo a nuestra tienda, por eso sabemos lo que buscás.</p>
+                <a href="./pages/catalogo.html" class="btn-dark">Ver Catálogo</a>
+            </div>
+            <img src="./img/imagen_inicio.jpg" alt="Aromaterapia" class="aromaterapia-img">
+        </section>
+        <section class="fragancias">
+            <div class="container text-center">
+                <h4>Buscá entre nuestras mejores colecciones de fragancias</h4>
+                <div class="fragancias-fila">
+                    <img src="./img/Fragancias/vainilla.png" alt="Vainilla">
+                    <img src="./img/Fragancias/sandia.png" alt="Sandía">
+                    <img src="./img/Fragancias/lavanda.png" alt="Lavanda">
+                    <img src="./img/Fragancias/frambuesa.png" alt="Frambuesa">
+                    <img src="./img/Fragancias/canela.png" alt="Canela">
+                    <img src="./img/Fragancias/arandano.png" alt="Arándano">
+                </div>
+                <p><small>Elegí entre +1.000 aromas personalizados</small></p>
+            </div>
+        </section>
+        <section class="beneficios container">
+            <div class="beneficio">
+                <img src="./img/aromaterapia.jpeg" alt="Beneficios del Aromaterapia">
+                <div>
+                    <h3>Principales Beneficios de la Aromaterapia</h3>
+                    <p>
+                        La aromaterapia ofrece beneficios como la reducción del estrés, ansiedad e insomnio; el alivio
+                        del
+                        dolor y molestias musculares; el apoyo al sistema inmunológico y respiratorio; y la mejora del
+                        estado de ánimo y la función cognitiva, utilizando aceites esenciales de plantas para equilibrar
+                        cuerpo y mente, ayudando a relajarse, concentrarse o estimularse. Funciona estimulando el
+                        sistema
+                        olfativo y límbico del cerebro, afectando emociones, presión arterial y memoria.
+                    </p>
+                </div>
+            </div>
+            <div class="beneficio">
+                <div>
+                    <h3>Aceites esenciales de calidad</h3>
+                    <p>
+                        Los aceites esenciales tienen propiedades diversas como antisépticas, antiinflamatorias,
+                        analgésicas
+                        y calmantes. También son estimulantes y regeneradoras, y se utilizan en aromaterapia, cosmética
+                        y
+                        como repelentes naturales. Sus propiedades específicas varían según el aceite; por ejemplo, la
+                        lavanda es relajante, el limón es purificador y el árbol de té es antiséptico.
+                    </p>
+                </div>
+                <img src="./img/aceite_esencial.jpg" alt="">
+            </div>
+        </section>
+        <section class="iconos">
+            <div class="container iconos-grupo">
+                <div class="icono">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <h5>Calidad</h5>
+                    <p>Nuestras velas cuentan con garantía.</p>
+                </div>
+                <div class="icono">
+                    <i class="fa-regular fa-shield"></i>
+                    <h5>Seguridad</h5>
+                    <p>Los datos de nuestros clientes se encuentran protegidos.</p>
+                </div>
+                <div class="icono">
+                    <i class="fa-regular fa-truck"></i>
+                    <h5>Envíos</h5>
+                    <p>Contamos con envìos a todo el país.</p>
+                </div>
+                <div class="icono">
+                    <i class="fa-regular fa-cart-plus"></i>
+                    <h5>Tienda Online</h5>
+                    <p>Catálogo completo actualizado todo el año.</p>
+                </div>
+                <div class="icono">
+                    <i class="fa-regular fa-location-dot"></i>
+                    <h5>Argentina</h5>
+                    <p>Empresa nacional argentina.</p>
+                </div>
+                <div class="icono">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <h5>Medios de Pago</h5>
+                    <p>Aceptamos todos los medios de pago.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="container text-center">
+                <h3>Contactanos</h3>
+                <p>Escribinos tus consultas ycomentarios</p>
+                <form action="" class="form text-center">
+                    <input type="text" id="nombre_form" placeholder="Nombre completo" required>
+                    <input type="tel" id="nombre_form" placeholder="11-5639-9991" required>
+                    <input type="email" id="nombre_form" placeholder="info@tiendadevelas.com" required>
+                    <div class="columnas">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" class="btn-dark">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-content">
+            <h4>Nuestras redes</h4>
+            <div class="redes">
+                <a href="https://www.facebook.com/tiendadevelas/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.x.com/tiendadevelas/" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="https://www.instagram.com/tiendadevelas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/tiendadevelas/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <h4>Encontranos en:</h4>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.25130642811644!2d-58.38163133427989!3d-34.60363293802875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1765230868309!5m2!1ses-419!2sar"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <hr>
+        <div class="legales">
+            <p><small>Derechos reservados por Tienda de Velas 2025</small></p>
+            <p><small>Sitio hecho por Marian Perea</small></p>
+        </div>
+    </footer>
+</body>
+
+</html>
