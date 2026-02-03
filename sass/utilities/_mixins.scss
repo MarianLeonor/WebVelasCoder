@@ -1,0 +1,11 @@
+@use "variables" as *;
+
+@mixin section-spacing{
+    padding: 4rem 0;
+}
+@mixin card-base {
+    background-color: #fff;
+    border-radius: $border-radius;
+    box-shadow: $shadow-card;
+    overflow: hidden;
+}

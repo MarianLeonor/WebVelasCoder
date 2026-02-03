@@ -1,0 +1,22 @@
+@use "../utilities/variables" as *;
+
+footer{
+    background-color: $light;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.redes a{
+    font-size: 1.375rem;
+    margin: 0 .5rem;
+    color: $dark;
+
+    &:hover{
+        opacity: .7;
+    }
+}
+
+.legales{
+    font-size: .875rem;
+    color: $secondary;
+}

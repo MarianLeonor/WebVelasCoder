@@ -1,0 +1,18 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.section {
+    @include section-spacing;
+}
+
+.section-ligth{
+    background-color: $light;
+}
+
+.aromaterapia img,
+.beneficio img{
+    border-radius: $border-radius;
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+}
