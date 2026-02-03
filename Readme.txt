@@ -7,8 +7,15 @@ El estilo debe transmitir serenidad, elegancia y suavidad.
 Herramientas aplicadas:
 ✓Box Model
 ✓Flex Box
-Grids
-Pseudoclases
-Bootstrap
-Sass
-Animaciones
+✓Grids
+✓Pseudoclases
+✓Bootstrap
+✓Sass
+✓Animaciones
+
+Cambios pendientes:
+Cambiar Lorem Ipsum en acerca, blog, 
+
+Crear más artículos
+
+Corregir clases de catálogo
