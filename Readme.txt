@@ -14,8 +14,4 @@ Herramientas aplicadas:
 ✓Animaciones
 
 Cambios pendientes:
-Cambiar Lorem Ipsum en acerca, blog, 
-
-Crear más artículos
-
-Corregir clases de catálogo
+Cambiar Lorem Ipsum en acerca, blog
