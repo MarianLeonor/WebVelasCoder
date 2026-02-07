@@ -12,6 +12,3 @@ Herramientas aplicadas:
 ✓Bootstrap
 ✓Sass
 ✓Animaciones
-
-Cambios pendientes:
-Cambiar Lorem Ipsum en acerca, blog
