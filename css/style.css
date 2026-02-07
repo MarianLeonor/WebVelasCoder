@@ -101,6 +101,29 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-body {
+  line-height: 1.6;
+}
+.modal-body p {
+  margin-bottom: 1rem;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
 footer {
   background-color: #f7f7f7;
   padding: 3rem 0;
