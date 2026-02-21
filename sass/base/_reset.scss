@@ -1,11 +1,3 @@
 *{
     box-sizing: border-box;
-    img{
-        filter: grayscale(0);
-    
-
-    &:hover {
-        filter: grayscale(1);
-    }
-    }
 }
